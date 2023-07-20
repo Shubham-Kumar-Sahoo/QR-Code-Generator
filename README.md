@@ -3,4 +3,4 @@ In this project, I have used HTML, CSS and Javascript to create a webpage that c
 
 ## To Run
 
-To play the online Simon Game, click on the following link : 
+To play the online Simon Game, click on the following link : https://shubham-kumar-sahoo.github.io/QR-Code-Generator/
