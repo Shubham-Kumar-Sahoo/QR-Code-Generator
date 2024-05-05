@@ -1,5 +1,5 @@
 $(".buttn").click(function() {
-    gapi="https://chart.googleapis.com/chart?cht=qr&chs=";
+    gapi="https://quickchart.io/qr?";
     image=document.querySelector("img");
     $("img").removeClass("hidden");
     data = document.querySelector("#text").value;
@@ -9,28 +9,28 @@ $(".buttn").click(function() {
 
             if(data!=="" && size=="100")
             {
-                image.src=gapi+"100x100"+"&chl="+data;
+                image.src=gapi+"text="+data+"&size=100";
             }
 
             else if(data!=="" && size=="150")
             {
 
-                image.src=gapi+"150x150"+"&chl="+data;
+                image.src=gapi+"text="+data+"&size=150";
             }
 
             else if(data!=="" && size=="200")
             {
-                image.src=gapi+"200x200"+"&chl="+data;
+                image.src=gapi+"text="+data+"&size=200";
             }
 
             else if (data!=="" && size=="250")
             {
-                image.src=gapi+"250x250"+"&chl="+data;
+                image.src=gapi+"text="+data+"&size=250";
             }
 
             else if (data!=="" && size=="300")
             {
-                image.src=gapi+"300x300"+"&chl="+data;
+                image.src=gapi+"text="+data+"&size=300";
             }
 
             else
